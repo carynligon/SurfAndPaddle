@@ -1,6 +1,19 @@
 header {
   height: 575px;
-  background: blue;
+  background: url("http://placekitten.com/1500/600");
+  position: relative;
+}
+
+header::before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #10569b;
+  opacity: 0.9;
 }
 
 .logo {
@@ -16,6 +29,7 @@ header {
 .logo img {
   float: left;
   border-radius: 50%;
+  opacity: 0.9;
 }
 
 .logo h5 {
@@ -41,6 +55,7 @@ li {
   font-size: 1.2em;
   font-family: Oswald;
   color: #000;
+  opacity: 0.6;
 }
 
 .top-navigation ul {
@@ -56,11 +71,13 @@ li {
   text-decoration: none;
   color: #000;
   margin-left: 5px;
+  opacity: 0.9;
 }
 
 .top-navigation img {
   height: 20px;
   width: 20px;
+  opacity: 0.8;
 }
 
 .top-navigation {
@@ -82,20 +99,23 @@ h1 {
   font-size: 7em;
   text-align: center;
   padding-top: 10.2%;
-  letter-spacing: -2.9px;
+  letter-spacing: -2px;
   margin: 0;
-  font-family: "Open Sans"
+  font-family: "Open Sans";
+  color: #fff;
+  opacity: 0.9;
 }
 
 h5 {
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: .4px;
   margin: 0;
   top: -18px;
   right: 4px;
   position: relative;
   font-family: "Open Sans";
+  opacity: 0.4;
 }
 
 h2 {
