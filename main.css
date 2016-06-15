@@ -2,3 +2,226 @@ header {
   height: 575px;
   background: blue;
 }
+
+.logo {
+  height: 50px;
+  width: 20.2%;
+  max-width: 280px;
+  margin-left: 11%;
+  display: inline-block;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.logo img {
+  float: left;
+  border-radius: 50%;
+}
+
+.logo h5 {
+  float: left;
+  margin-top: 12px;
+  font-size: 17.4px;
+  margin-left: 13px;
+  font-family: "Open Sans"
+}
+
+.logo::after {
+  content:"";
+  clear: both;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.2em;
+  font-family: Oswald;
+  color: #000;
+}
+
+.top-navigation ul {
+  display: inline;
+  margin-right: 11%;
+}
+
+.top-navigation li {
+  margin-right: 10px;
+}
+
+.top-navigation a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 5px;
+}
+
+.top-navigation img {
+  height: 20px;
+  width: 20px;
+}
+
+.top-navigation {
+  padding-right: 9.2%;
+  float: right;
+  margin-top: 20px;
+}
+
+.top-navigation::after {
+  content:"";
+  clear:both;
+}
+
+h2, h3, h4, h5 {
+  font-family: Oswald;
+}
+
+h1 {
+  font-size: 7em;
+  text-align: center;
+  padding-top: 10.2%;
+  letter-spacing: -2.9px;
+  margin: 0;
+  font-family: "Open Sans"
+}
+
+h5 {
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: .4px;
+  margin: 0;
+  top: -18px;
+  right: 4px;
+  position: relative;
+  font-family: "Open Sans";
+}
+
+h2 {
+  margin-top: 11%;
+  margin-bottom: 0;
+  font-size: 3.5em;
+}
+
+section {
+  overflow: hidden;
+}
+
+.post {
+  width: 50%;
+  margin-left: 12.5%;
+  float: left;
+}
+
+.article-details {
+  margin-top: 4%;
+}
+
+.sidebar {
+  width: 25%;
+  margin-right: 12.5%;
+  margin-top: 6%;
+  float: left;
+}
+
+.sidebar::after {
+  content: "";
+  clear: both;
+}
+
+p {
+  line-height: 2em;
+}
+
+h3 {
+  margin: 0;
+  border-left: 1px solid black;
+  padding-left: 10px;
+  font-size: 1.75em;
+}
+
+aside .aut-img {
+  height: 100px;
+  width: 100px;
+  background: blue;
+  margin: 0 auto;
+}
+
+h4 {
+  text-align: center;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.ad-image {
+  background: blue;
+  height: 330px;
+  width: 307px;
+  margin-top: 7%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ad-link {
+  float: right;
+  margin-right: 22%;
+  margin-top: 2%;
+}
+
+.ad-link::after {
+  content:"";
+  clear: both;
+}
+
+.sidebar-heading {
+  display: inline-block;
+  font-size: 1.3em;
+  border: none;
+  margin-top: 14%;
+}
+
+.popular-posts h2 {
+  text-align: center;
+  overflow: hidden;
+}
+
+.preview {
+  height: 379px;
+  width: 379px;
+  background: blue;
+  border: 3px solid black;
+  float: left;
+  margin: 0;
+}
+
+.popular-posts {
+  overflow: hidden;
+}
+
+.popular-posts::after {
+  content: "";
+  clear: both;
+}
+
+.tiy-logo {
+  height: 50px;
+  width: 200px;
+  background: blue;
+  float: left;
+}
+
+.tiy-logo::after {
+  content:"";
+  clear: both;
+}
+
+.nav-items {
+  float: right;
+}
+
+footer {
+  padding: 5%;
+}
