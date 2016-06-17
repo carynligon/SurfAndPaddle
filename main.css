@@ -12,8 +12,8 @@ header::before {
   display: block;
   height: 100%;
   width: 100%;
-  background: #10569b;
-  opacity: 0.9;
+  background: #106db3;
+  opacity: 0.8;
   z-index: 1;
 }
 
@@ -62,6 +62,11 @@ li {
 .article-details .aut-img {
   margin-left: 1%;
   margin-right: 1%;
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+  vertical-align: top;
 }
 
 .top-navigation {
@@ -81,10 +86,26 @@ li {
   margin-right: 10px;
 }
 
+.top-navigation input {
+  display: none;
+}
+
+.search-bar:focus > input {
+  display: inline-block;
+}
+
+.search-icon {
+  padding-top: 6%;
+}
+
 .top-navigation a {
   text-decoration: none;
   color: #000;
   margin-left: 8px;
+}
+
+a {
+  color: #a6b5c1;
 }
 
 .top-navigation img {
@@ -132,6 +153,7 @@ h2 {
   font-size: 4.25em;
   letter-spacing: 1.1px;
   line-height: 1.15em;
+  color: #083452;
 }
 
 h2::first-line {
@@ -150,7 +172,7 @@ section {
 }
 
 .article-details {
-  margin-top: 0.5%;
+  margin-top: 1.5%;
 }
 
 .article-details img {
@@ -160,19 +182,19 @@ section {
 .name {
   font-size: 15px;
   font-family: "Open Sans";
-  color: #2e7dba;
+  color: #106db3;
   margin-right: 1%;
 }
 
 .date {
   font-size: 14px;
   font-family: "Open Sans";
-  color: gray;
+  color: #a6b5c1;
   width: 300px;
 }
 
 .sidebar {
-  width: 22%;
+  width: 21.5%;
   margin-right: 11%;
   margin-top: 3%;
   margin-left: 6.6%;
@@ -197,31 +219,50 @@ p {
 }
 
 button {
-  margin: 1px 2px 1px 4px;
+  margin: 2px 2px 1px 4px;
   border: none;
   height: 34px;
   background: #a3b3bf;
   position: relative;
 }
 
-.comments {
-  width: 26%;
+.comments, .later, .share {
   color: #fff;
   padding-left: 6%;
   font-size: 14px;
+  font-family: "Open Sans";
+  letter-spacing: 0.5px;
+  vertical-align: top;
 }
 
-.comment-icon {
+.comment-icon, .cloud-icon, .share-icon {
   color: #fff;
   background: #5e686f;
-  padding: 9px;
+  padding: 10px;
   position: absolute;
   top: 0;
   left: 0;
 }
 
+.share-icon {
+  padding-left: 10.5px;
+  padding-right: 10.5px;
+}
+
+button:hover {
+  background: #106db3;
+}
+
+button:hover > i {
+  background: #083452;
+}
+
+.comments {
+  width: 26%;
+}
+
 .later {
-  width: 20.5%;
+  width: 21.2%;
 }
 
 .share {
@@ -234,7 +275,7 @@ h3 {
   padding: 1% 20px 1%;
   font-family: "Open Sans";
   font-size: 1.85em;
-  color: #2e7dba;
+  color: #106db3;
 }
 
 aside .aut-img {
@@ -250,6 +291,7 @@ h4 {
   margin-top: 4%;
   margin-bottom: 0;
   font-family: "Open Sans";
+  color: #106db3;
 }
 
 .social-links {
@@ -260,7 +302,6 @@ h4 {
   text-decoration: none;
   font-family: "Open Sans";
   font-size: 0.78em;
-  color: gray;
 }
 
 .social-links li {
@@ -271,17 +312,33 @@ h4 {
 
 .break {
   font-size: 1em;
-  color: gray;
+  color: #a6b5c1;
   opacity: 0.1;
 }
 
 .ad-image {
-  background: blue;
   height: 330px;
-  width: 304px;
+  width: 100%;
   margin-top: 18%;
   margin-right: auto;
   margin-left: auto;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+.ad-image::before {
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  max-width: 400px;
+  background: #106db3;
+  opacity: 0.5;
+  z-index: 1;
 }
 
 .ad-link {
@@ -306,14 +363,14 @@ h4 {
   font-size: 1.2em;
   border: none;
   margin-top: 14.5%;
-  margin-left: 1.6%;
+  margin-bottom: 0;
   padding-left: 0;
   letter-spacing: 0.2px;
   font-family: "Oswald";
 }
 
 .sidebar p {
-  margin-top: 0%;
+  margin-top: 1%;
   line-height: 1.7em;
   font-size: 1em;
 }
@@ -322,12 +379,28 @@ h4 {
   text-align: center;
   display: inline-block;
   width:100%;
-  margin-top: 7.6%;
+  margin-top: 7.7%;
 }
 
 .preview-wrapper {
   width:100%;
   margin-top: 3%;
+}
+
+.post1 {
+  background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("http://placekitten.com/400/400");
+}
+
+.post2 {
+  background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("http://www.placecage.com/400/400");
+}
+
+.post3 {
+  background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("https://placebear.com/400/400");
+}
+
+.post4 {
+  background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("http://www.fillmurray.com/400/400");
 }
 
 .preview {
@@ -340,55 +413,81 @@ h4 {
   position: relative;
 }
 
-.post4::after {
-  content: "";
-  clear: both;
-}
-
 .preview h4 {
   position: absolute;
-  color: #fff;
+  color: #083452;
   font-family: Oswald;
   bottom: 3%;
-  left: 6%;
+  left: 5.3%;
   text-align: left;
   font-size: 2em;
-  letter-spacing: 2px;
-  letter-spacing: 1px;
+  letter-spacing: 0.2px;
   line-height: 44px;
 }
 
 .post3 h4 {
   position: absolute;
-  bottom: 5.4%;
-  letter-spacing: 0.9px;
-  left: 6.5%;
-  line-height: 38px;
+  bottom: 4.5%;
+  letter-spacing: 0.2px;
+  left: 5.5%;
+  padding-right: 5.5%;
+  line-height: 39px;
+}
+
+
+.post1:hover {
+  background: url("http://placekitten.com/400/400");
+}
+
+.preview:hover > h4 {
+  color: #fff;
+}
+
+.post2:hover {
+  background: url("http://www.placecage.com/400/400");
+}
+
+.post3:hover {
+  background: url("https://placebear.com/400/400");
+}
+
+.post4:hover {
+  background: url("http://www.fillmurray.com/400/400");
+}
+
+.preview-wrapper::after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
 .tiy-logo {
   height: 50px;
-  width: 409px;
-  background: blue;
-  margin: 1.8% 0 1.8% 8%;
-  float: left;
+  width: 40%;
+  display: inline-block;
 }
 
-.tiy-logo::after {
-  content:"";
-  clear: both;
+.tiy-logo img {
+  height: 50px;
+}
+
+.tiy-logo p {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .nav-items {
   float: right;
-  margin-top: 3.2%;
-  margin-right: 8%;
+  padding-top: 1.6%;
+  padding-right: 2.1%;
+  width: 40%;
 }
 
-.nav-items li {
+.nav-items li, .tiy-logo p {
   font-family: "Open Sans";
-  font-size: 15.5px;
+  font-size: 15px;
   letter-spacing: -0.2px;
+  color: #a6b5c1;
 }
 
 .nav-items a {
@@ -396,5 +495,14 @@ h4 {
 }
 
 footer {
-  padding: 5%;
+  padding-top: 1.6%;
+  padding-bottom: 1.6%;
+  padding-left: 12.2%;
+  background: #083452;
+  height: 60px;
+}
+
+.footer::after {
+  content:"";
+  clear: both;
 }
