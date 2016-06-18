@@ -1,508 +1,522 @@
 header {
-  height: 575px;
-  background: url("http://placekitten.com/1500/600");
-  position: relative;
+    height: 575px;
+    width: 100%;
+    background: url("http://vientodelmar.com/wp-content/uploads/2014/07/Kayaking-Philippines.jpg");
+    position: relative;
 }
-
 header::before {
-  content:"";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  height: 100%;
-  width: 100%;
-  background: #106db3;
-  opacity: 0.8;
-  z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: #106db3;
+    opacity: 0.8;
+    z-index: 1;
 }
-
 .logo {
-  height: 50px;
-  width: 20.2%;
-  max-width: 280px;
-  margin-left: 11%;
-  display: inline-block;
-  margin-top: 10px;
-  position: relative;
-  z-index: 2;
+    height: 50px;
+    width: 40%;
+    max-width: 280px;
+    margin-left: 11%;
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;
 }
-
 .logo img {
-  float: left;
-  border-radius: 50%;
+    float: left;
+    border-radius: 50%;
 }
-
 .logo h5 {
-  float: left;
-  margin-top: 12px;
-  font-size: 17.4px;
-  margin-left: 13px;
-  font-family: "Open Sans"
+    float: left;
+    margin-top: 12px;
+    font-size: 17.4px;
+    margin-left: 13px;
+    font-family: "Open Sans"
 }
-
 .logo::after {
-  content:"";
-  clear: both;
+    content: "";
+    clear: both;
 }
-
 ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
 li {
-  display: inline-block;
-  font-size: 1.2em;
-  font-family: Oswald;
-  color: #000;
-  opacity: 0.6;
+    display: inline-block;
+    font-size: 1.2em;
+    font-family: Oswald;
+    color: #000;
+    opacity: 0.6;
 }
-
 .article-details .aut-img {
-  margin-left: 1%;
-  margin-right: 1%;
-  height: 20px;
-  width: 20px;
-  overflow: hidden;
-  border-radius: 50%;
-  vertical-align: top;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 20px;
+    width: 20px;
+    background: linear-gradient(to right, rgba(16, 109, 179, 0.5), rgba(16, 109, 179, 0.5)), url("http://placekitten.com/20/20");
+    overflow: hidden;
+    border-radius: 50%;
+    vertical-align: top;
 }
-
 .top-navigation {
-  position: relative;
-  z-index: 2;
-  padding-right: 10.2%;
-  float: right;
-  margin-top: 20px;
+    position: relative;
+    z-index: 2;
+    padding-right: 10.2%;
+    float: right;
+    margin-top: 20px;
 }
-
 .top-navigation ul {
-  display: inline;
-  margin-right: 11%;
+    display: inline;
+    margin-right: 11%;
 }
-
 .top-navigation li {
-  margin-right: 10px;
+    margin-right: 10px;
 }
-
 .top-navigation input {
-  display: none;
+    display: none;
 }
-
 .search-bar:focus > input {
-  display: inline-block;
+    display: inline-block;
 }
-
 .search-icon {
-  padding-top: 6%;
+    padding-top: 6%;
 }
-
 .top-navigation a {
-  text-decoration: none;
-  color: #000;
-  margin-left: 8px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 8px;
 }
-
 a {
-  color: #a6b5c1;
+    color: #a6b5c1;
 }
-
-.top-navigation img {
-  height: 20px;
-  width: 20px;
-  opacity: 0.8;
-}
-
 .top-navigation::after {
-  content:"";
-  clear:both;
+    content: "";
+    clear: both;
 }
-
 h2, h3, h4, h5 {
-  font-family: Oswald;
+    font-family: Oswald;
 }
-
 h1 {
-  font-size: 7em;
-  text-align: center;
-  padding-top: 10.2%;
-  letter-spacing: -3px;
-  margin: 0;
-  font-family: "Open Sans";
-  color: #fff;
-  position: relative;
-  z-index: 2;
+    font-size: 7em;
+    text-align: center;
+    padding-top: 10.2%;
+    letter-spacing: -3px;
+    margin: 0;
+    font-family: "Open Sans";
+    color: #fff;
+    position: relative;
+    z-index: 2;
 }
-
 .subheading {
-  text-align: center;
-  font-size: 17px;
-  letter-spacing: -.1px;
-  margin: 0;
-  top: -19px;
-  position: relative;
-  font-family: "Open Sans";
-  position: relative;
-  z-index: 2;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: -.1px;
+    margin: 0;
+    top: -19px;
+    position: relative;
+    font-family: "Open Sans";
+    position: relative;
+    z-index: 2;
 }
-
 h2 {
-  margin-top: 3%;
-  margin-bottom: 0;
-  font-size: 4.25em;
-  letter-spacing: 1.1px;
-  line-height: 1.15em;
-  color: #083452;
+    margin-top: 3%;
+    margin-bottom: 0;
+    font-size: 4.25em;
+    letter-spacing: 1.1px;
+    line-height: 1.15em;
+    color: #083452;
 }
-
 h2::first-line {
-  content:"";
-  letter-spacing: 0px;
+    content: "";
+    letter-spacing: 0px;
 }
-
 section {
-  margin-top: 3.4%;
+    margin-top: 3.4%;
 }
-
 .post {
-  width: 47%;
-  margin-left: 12.5%;
-  float: left;
+    width: 47%;
+    margin-left: 12.5%;
+    float: left;
 }
-
 .article-details {
-  margin-top: 1.5%;
+    margin-top: 1.5%;
 }
-
 .article-details img {
-  margin-left: 1%;
+    margin-left: 1%;
 }
-
 .name {
-  font-size: 15px;
-  font-family: "Open Sans";
-  color: #106db3;
-  margin-right: 1%;
+    font-size: 15px;
+    font-family: "Open Sans";
+    color: #106db3;
+    margin-right: 1%;
 }
-
 .date {
-  font-size: 14px;
-  font-family: "Open Sans";
-  color: #a6b5c1;
-  width: 300px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: #a6b5c1;
+    width: 300px;
 }
-
 .sidebar {
-  width: 21.5%;
-  margin-right: 11%;
-  margin-top: 3%;
-  margin-left: 6.6%;
-  float: left;
-  padding: 0;
+    width: 21.5%;
+    margin-right: 11%;
+    margin-top: 3%;
+    margin-left: 6.6%;
+    float: left;
+    padding: 0;
 }
-
 .sidebar::after {
-  content: "";
-  clear: both;
+    content: "";
+    clear: both;
 }
-
 .paragraph1 {
-  margin-top: 5.5%;
+    margin-top: 5.5%;
 }
-
 p {
-  line-height: 1.7em;
-  margin-top: 4%;
-  font-size: 1.1em;
-  font-family: "Open Sans";
+    line-height: 1.7em;
+    margin-top: 4%;
+    font-size: 1.1em;
+    font-family: "Open Sans";
 }
-
 button {
-  margin: 2px 2px 1px 4px;
-  border: none;
-  height: 34px;
-  background: #a3b3bf;
-  position: relative;
+    margin: 2px 2px 1px 4px;
+    border: none;
+    height: 34px;
+    background: #a3b3bf;
+    position: relative;
 }
-
 .comments, .later, .share {
-  color: #fff;
-  padding-left: 6%;
-  font-size: 14px;
-  font-family: "Open Sans";
-  letter-spacing: 0.5px;
-  vertical-align: top;
+    color: #fff;
+    padding-left: 6%;
+    font-size: 14px;
+    font-family: "Open Sans";
+    letter-spacing: 0.5px;
+    vertical-align: top;
 }
-
 .comment-icon, .cloud-icon, .share-icon {
-  color: #fff;
-  background: #5e686f;
-  padding: 10px;
-  position: absolute;
-  top: 0;
-  left: 0;
+    color: #fff;
+    background: #5e686f;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-
 .share-icon {
-  padding-left: 10.5px;
-  padding-right: 10.5px;
+    padding-left: 11px;
+    padding-right: 11px;
 }
-
 button:hover {
-  background: #106db3;
+    background: #106db3;
 }
-
 button:hover > i {
-  background: #083452;
+    background: #083452;
 }
-
 .comments {
-  width: 26%;
+    width: 174px;
 }
-
 .later {
-  width: 21.2%;
+    width: 142px;
 }
-
 .share {
-  width: 25.5%;
+    width: 171px;
 }
-
 h3 {
-  margin: 4.3% 0 4.5% 1.2%;
-  border-left: 3px solid #d3d3d3;
-  padding: 1% 20px 1%;
-  font-family: "Open Sans";
-  font-size: 1.85em;
-  color: #106db3;
+    margin: 4.3% 0 4.5% 1.2%;
+    border-left: 3px solid #d3d3d3;
+    padding: 1% 20px 1%;
+    font-family: "Open Sans";
+    font-size: 1.85em;
+    color: #106db3;
 }
-
 aside .aut-img {
-  height: 92px;
-  width: 92px;
-  background: url("http://placekitten.com/100/100");
-  border-radius: 50%;
-  margin: 0 auto;
+    height: 92px;
+    width: 92px;
+    background: linear-gradient(to right, rgba(16, 109, 179, 0.5), rgba(16, 109, 179, 0.5)), url("http://placekitten.com/100/100");
+    border-radius: 50%;
+    margin: 0 auto;
 }
-
 h4 {
-  text-align: center;
-  margin-top: 4%;
-  margin-bottom: 0;
-  font-family: "Open Sans";
-  color: #106db3;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 0;
+    font-family: "Open Sans";
+    color: #106db3;
 }
-
 .social-links {
-  text-align: center;
+    text-align: center;
 }
-
 .social-links a {
-  text-decoration: none;
-  font-family: "Open Sans";
-  font-size: 0.78em;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-size: 0.78em;
 }
-
 .social-links li {
-  padding-right: 3px;
-  padding-left: 1px;
-  line-height: 1em;
+    padding-right: 3px;
+    padding-left: 1px;
+    line-height: 1em;
 }
-
 .break {
-  font-size: 1em;
-  color: #a6b5c1;
-  opacity: 0.1;
+    font-size: 1em;
+    color: #a6b5c1;
+    opacity: 0.1;
 }
-
 .ad-image {
-  height: 330px;
-  width: 100%;
-  margin-top: 18%;
-  margin-right: auto;
-  margin-left: auto;
-  overflow: hidden;
-  position: relative;
-  z-index: 2;
+    height: 330px;
+    width: 100%;
+    margin-top: 18%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
 }
-
 .ad-image::before {
-  content:"";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  height: 100%;
-  width: 100%;
-  max-width: 400px;
-  background: #106db3;
-  opacity: 0.5;
-  z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    background: #106db3;
+    opacity: 0.5;
+    z-index: 1;
 }
-
 .ad-link {
-  float: right;
-  margin-right: 2%;
-  margin-top: 3%;
-  font-size: 15px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 3%;
+    font-size: 15px;
 }
-
 .ad-link::after {
-  content:"";
-  clear: both;
+    content: "";
+    clear: both;
 }
-
 .sidebar h4 {
-  font-size: 18px;
-  letter-spacing: -0.4px;
+    font-size: 18px;
+    letter-spacing: -0.4px;
 }
-
 .sidebar-heading {
-  display: inline-block;
-  font-size: 1.2em;
-  border: none;
-  margin-top: 14.5%;
-  margin-bottom: 0;
-  padding-left: 0;
-  letter-spacing: 0.2px;
-  font-family: "Oswald";
+    display: inline-block;
+    font-size: 1.2em;
+    border: none;
+    margin-top: 14.5%;
+    margin-bottom: 0;
+    padding-left: 0;
+    letter-spacing: 0.2px;
+    font-family: "Oswald";
 }
-
 .sidebar p {
-  margin-top: 1%;
-  line-height: 1.7em;
-  font-size: 1em;
+    margin-top: 1%;
+    line-height: 1.7em;
+    font-size: 1em;
 }
-
 .popular-posts h2 {
-  text-align: center;
-  display: inline-block;
-  width:100%;
-  margin-top: 7.7%;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 5%;
+    border-top: 1px solid #e1e7ea;
+    padding-top: 2.7%;
 }
-
 .preview-wrapper {
-  width:100%;
-  margin-top: 3%;
+    max-width: 1650px;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
 }
-
 .post1 {
-  background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("http://placekitten.com/400/400");
+    background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("http://placekitten.com/400/400");
 }
-
 .post2 {
-  background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("http://www.placecage.com/400/400");
+    background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("http://www.placecage.com/400/400");
 }
-
 .post3 {
-  background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("https://placebear.com/400/400");
+    background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("https://placebear.com/400/400");
 }
-
 .post4 {
-  background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("http://www.fillmurray.com/400/400");
+    background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("http://www.fillmurray.com/400/400");
 }
-
 .preview {
-  height: 365px;
-  width: 25%;
-  max-width: 400px;
-  float: left;
-  margin: 0;
-  overflow: hidden;
-  position: relative;
+    height: 365px;
+    width: 25%;
+    max-width: 400px;
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
 }
-
 .preview h4 {
-  position: absolute;
-  color: #083452;
-  font-family: Oswald;
-  bottom: 3%;
-  left: 5.3%;
-  text-align: left;
-  font-size: 2em;
-  letter-spacing: 0.2px;
-  line-height: 44px;
+    position: absolute;
+    color: #083452;
+    font-family: Oswald;
+    bottom: 3%;
+    left: 5.3%;
+    text-align: left;
+    font-size: 2em;
+    letter-spacing: 0.2px;
+    line-height: 44px;
 }
-
 .post3 h4 {
-  position: absolute;
-  bottom: 4.5%;
-  letter-spacing: 0.2px;
-  left: 5.5%;
-  padding-right: 5.5%;
-  line-height: 39px;
+    position: absolute;
+    bottom: 4.5%;
+    letter-spacing: 0.2px;
+    left: 5.5%;
+    padding-right: 5.5%;
+    line-height: 39px;
 }
-
-
 .post1:hover {
-  background: url("http://placekitten.com/400/400");
+    background: url("http://placekitten.com/400/400");
 }
-
 .preview:hover > h4 {
-  color: #fff;
+    color: #fff;
 }
-
 .post2:hover {
-  background: url("http://www.placecage.com/400/400");
+    background: url("http://www.placecage.com/400/400");
 }
-
 .post3:hover {
-  background: url("https://placebear.com/400/400");
+    background: url("https://placebear.com/400/400");
 }
-
 .post4:hover {
-  background: url("http://www.fillmurray.com/400/400");
+    background: url("http://www.fillmurray.com/400/400");
 }
-
 .preview-wrapper::after {
-  display: block;
-  content: "";
-  clear: both;
+    display: block;
+    content: "";
+    clear: both;
 }
-
 .tiy-logo {
-  height: 50px;
-  width: 40%;
-  display: inline-block;
+    height: 50px;
+    width: 40%;
+    display: inline-block;
 }
-
 .tiy-logo img {
-  height: 50px;
+    height: 50px;
 }
-
 .tiy-logo p {
-  display: inline-block;
-  vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
-
 .nav-items {
-  float: right;
-  padding-top: 1.6%;
-  padding-right: 2.1%;
-  width: 40%;
+    float: right;
+    padding-top: 1.6%;
+    padding-right: 2.1%;
+    width: 40%;
 }
-
 .nav-items li, .tiy-logo p {
-  font-family: "Open Sans";
-  font-size: 15px;
-  letter-spacing: -0.2px;
-  color: #a6b5c1;
+    font-family: "Open Sans";
+    font-size: 15px;
+    letter-spacing: -0.2px;
+    color: #a6b5c1;
 }
-
 .nav-items a {
-  text-decoration: none;
+    text-decoration: none;
 }
-
 footer {
-  padding-top: 1.6%;
-  padding-bottom: 1.6%;
-  padding-left: 12.2%;
-  background: #083452;
-  height: 60px;
+    padding-top: 1.6%;
+    padding-bottom: 1.6%;
+    padding-left: 12.2%;
+    background: #083452;
+    height: 60px;
+}
+footer::after {
+    content: "";
+    clear: both;
 }
 
-.footer::after {
-  content:"";
-  clear: both;
+@media screen and (max-width: 1094px) {
+
+  .comments, .later, .share {
+    width: 16px;
+  }
+
+  button span {
+    display: none;
+  }
+
+  button {
+    margin: 2px;
+    background: none;
+  }
+
+  h1 {
+    font-size: 6em;
+  }
+  header {
+    height: 530px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  h1 {
+    font-size: 5em;
+  }
+  header {
+    height: 415px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  h1 {
+    font-size: 4em;
+  }
+  header {
+    height: 350px;
+  }
+  .logo h5 {
+    display: none;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 235px;
+    width: 100%;
+  }
+  .logo h5 {
+    display: none;
+    float: none;
+  }
+  .logo {
+    float: none;
+    display: block;
+    position: absolute;
+    top: 55px;
+    left: 36%;
+  }
+  .logo img {
+    width: 60px;
+  }
+  .top-navigation ul {
+      margin-right: 11%;
+      float: none;
+  }
+  h1 {
+    font-size: 3em;
+    padding-top: 130px;
+    padding-bottom: 15px;
+  }
+  .top-navigation {
+    display: block;
+    position: relative;
+    margin-right: 18%;
+  }
+  .post {
+    float: none;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .post p {
+    width: 93%;
+  }
+  .sidebar {
+    float: none;
+    width: 100%;
+  }
 }
