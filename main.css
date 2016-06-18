@@ -269,22 +269,7 @@ h4 {
     margin-top: 18%;
     margin-right: auto;
     margin-left: auto;
-    overflow: hidden;
-    position: relative;
-    z-index: 2;
-}
-.ad-image::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    height: 100%;
-    width: 100%;
-    max-width: 400px;
-    background: #106db3;
-    opacity: 0.5;
-    z-index: 1;
+    background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("http://www.placebear.com/400/400");
 }
 .ad-link {
     float: right;
@@ -391,7 +376,7 @@ h4 {
 }
 .tiy-logo {
     height: 50px;
-    width: 40%;
+    width: 55%;
     display: inline-block;
 }
 .tiy-logo img {
@@ -400,6 +385,7 @@ h4 {
 .tiy-logo p {
     display: inline-block;
     vertical-align: top;
+    color: #8c97a0;
 }
 .nav-items {
     float: right;
@@ -439,7 +425,7 @@ footer::after {
   }
 
   button {
-    margin: 2px;
+    margin: 0px;
     background: none;
   }
 
@@ -448,6 +434,60 @@ footer::after {
   }
   header {
     height: 530px;
+  }
+  .post, .sidebar {
+    float: none;
+    width: 90%;
+    margin: 0;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .sidebar-heading, .sidebar p {
+    display: none;
+  }
+  .post p {
+    width: 100%;
+  }
+  .ad-image {
+    margin-top: 5%;
+  }
+  .popular-posts {
+    width: 100%;
+  }
+  .article-details .aut-img, .name, .date span {
+    display: none;
+  }
+  .ad-image {
+    text-align: center;
+    max-width: 400px;
+    position: relative;
+  }
+  .ad-link {
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
+  .popular-posts h2 {
+    padding-top: 12.7%;
+  }
+  footer {
+    height: 200px;
+  }
+  .nav-items {
+    float: none;
+    width: 90%;
+    margin-top: 0;
+    text-align: center;
+  }
+  .tiy-logo {
+    width: 90%;
+    text-align: center;
+    margin-top: 7%;
+  }
+  .tiy-logo p {
+    display: block;
+    margin-top: 0;
   }
 }
 
@@ -506,20 +546,39 @@ footer::after {
     position: relative;
     margin-right: 18%;
   }
-  .post {
+  .post, .sidebar {
+    margin-top: 15%;
+  }
+  .popular-posts h2 {
+    padding-top: 12.7%;
+    font-size: 2.5em;
+  }
+  section {
+    margin-bottom: 14%;
+  }
+  .preview-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .preview {
     float: none;
+    height: 270px;
     width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 20px auto;
   }
-  .post p {
-    width: 93%;
+  button {
+    margin: 5px;
+    background: none;
   }
-  .sidebar {
-    float: none;
-    width: 100%;
+  .nav-items {
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 2em;
   }
-  .popular-posts {
-    width: 100%;
+  .subheading {
+    font-size: 0.8em;
   }
 }
