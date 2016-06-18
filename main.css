@@ -519,4 +519,7 @@ footer::after {
     float: none;
     width: 100%;
   }
+  .popular-posts {
+    width: 100%;
+  }
 }
