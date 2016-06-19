@@ -266,20 +266,19 @@ h4 {
 .ad-image {
     height: 330px;
     width: 100%;
+    max-width: 400px
+    text-align: center;
+    position: relative;
     margin-top: 18%;
     margin-right: auto;
     margin-left: auto;
     background: linear-gradient(to right, rgba(16, 109, 179, 0.8), rgba(16, 109, 179, 0.8)), url("http://www.placebear.com/400/400");
 }
 .ad-link {
-    float: right;
-    margin-right: 2%;
-    margin-top: 3%;
-    font-size: 15px;
-}
-.ad-link::after {
-    content: "";
-    clear: both;
+  position: absolute;
+  margin-top:3%;
+  top: 100%;
+  right: 0;
 }
 .sidebar h4 {
     font-size: 18px;
@@ -289,7 +288,7 @@ h4 {
     display: inline-block;
     font-size: 1.2em;
     border: none;
-    margin-top: 14.5%;
+    margin-top: 23.5%;
     margin-bottom: 0;
     padding-left: 0;
     letter-spacing: 0.2px;
@@ -386,6 +385,7 @@ h4 {
     display: inline-block;
     vertical-align: top;
     color: #8c97a0;
+    margin-top: 2.5%;
 }
 .nav-items {
     float: right;
@@ -458,16 +458,6 @@ footer::after {
   .article-details .aut-img, .name, .date span {
     display: none;
   }
-  .ad-image {
-    text-align: center;
-    max-width: 400px;
-    position: relative;
-  }
-  .ad-link {
-    position: absolute;
-    top: 100%;
-    right: 0;
-  }
   .popular-posts h2 {
     padding-top: 12.7%;
   }
@@ -503,48 +493,45 @@ footer::after {
 @media screen and (max-width: 750px) {
   h1 {
     font-size: 4em;
-  }
-  header {
-    height: 350px;
-  }
-  .logo h5 {
-    display: none;
-    float: none;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  header {
-    height: 235px;
-    width: 100%;
+    padding-top: 15px;
   }
   .logo h5 {
     display: none;
     float: none;
   }
   .logo {
+    width: 60px;
+    margin: 0 auto;
+    padding-top: 15px;
     float: none;
     display: block;
-    position: absolute;
-    top: 55px;
-    left: 36%;
   }
   .logo img {
     width: 60px;
   }
-  .top-navigation ul {
-      margin-right: 11%;
-      float: none;
-  }
-  h1 {
-    font-size: 3em;
-    padding-top: 130px;
-    padding-bottom: 15px;
-  }
   .top-navigation {
     display: block;
-    position: relative;
-    margin-right: 18%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+    float: none;
+  }
+  .top-navigation ul {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 750px) and (min-width: 421px) {
+  header {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 3em;
+    padding-bottom: 15px;
   }
   .post, .sidebar {
     margin-top: 15%;
@@ -575,6 +562,9 @@ footer::after {
 }
 
 @media screen and (max-width: 420px) {
+  header {
+    height: 200px;
+  }
   h1 {
     font-size: 2em;
   }
